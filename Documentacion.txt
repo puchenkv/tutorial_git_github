@@ -18,12 +18,5 @@ VIDEO II:
     https://youtu.be/GG4mftkQVrs
 
 
-*** ACRONIMOS EN GIT ***
-
-branch
--u <upstream>
-
-commit
--m <msg> o --message 
 
     

@@ -39,14 +39,16 @@
 
         <h3>Crear una nuevo repositorio</h3>
 
-        <p>git remote add origin [ruta: https o ssh] / 
-            git remote add origin git@github.com:puchenkv/tutorial_git_github.git :
-            establece la conexion con el proyecto, solo debe ejecutarse una sola vez
-         </p> 
-        
-        <p>git push -u origin main, esa rama local se vincula con la rama remota automáticamente.
-            /* esto lo ejecuto cuando explique los comandos de branch*/ ... -u: upstream (flag)</p>
+            <p>git remote add origin [ruta: https o ssh] / 
+                git remote add origin git@github.com:puchenkv/tutorial_git_github.git :
+                establece la conexion con el proyecto, solo debe ejecutarse una sola vez
+            </p> 
+            
+            <p>git push -u origin main, esa rama local se vincula con la rama remota automáticamente.... -u: upstream (flag)</p>
 
+        <h3>Integracion (merge) de Ramas tanto local como el servidor</h3>
+            <p>Este comando se ejecuta cuando hay documentos en la nube que no se encuentran en local</p>
+            <p>git pull origin main --allow-unrelated-histories</p>
 
         
     </section>
